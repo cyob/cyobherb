@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscriptions</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="Acceuil.html.html">Acceuil</a>
+  <a href="presentation.html.html">Presentation</a>
+  <a href="contact.html.html">Contact</a>
+  <a href="inscription.html.html">Inscription</a>
+  <a href="programmes.html.html">Programmes</a>
+</div>
+	<center><h1>Inscription</h1></center>
+ <form method="post" action="form.php">
+  <fieldset>
+   <center><p1><legend>Informations personnelles:</legend></p1></center>
+    <div class="champ">
+      <label for="nom">Nom de famille :</label>
+      <input type="text" id="nom" name="nom" minlength="2" maxlength="30" required>
+    </div>
+    <div class="champ">
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" minlength="2" maxlength="25" required>
+    </div>
+    <div class="champ">
+      <label for="Sexe">Sexe :</label>
+      <input type="Sexe" id="Sexe" name="Sexe" required>
+    </div>
+    <div class="champ">
+      <label for="Telephone">Telephone :</label>
+      <input type="Telephone" id="Telephone" name="Telephone" min="16" max="99">
+     </div>
+	  <div class="champ">
+      <label for="Adresse Mail">Adresse Mail :</label>
+      <input type="Adresse Mail" id="Adresse Mail" name="Adresse Mail" required>
+    </div>
+	 <input type="Submit" name="envoyer">	
+</body>
+</html>
